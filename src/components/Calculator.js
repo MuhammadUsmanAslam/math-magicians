@@ -1,44 +1,14 @@
 import './Calculator.css';
+import CalculatorRow from './CalculatorRow.js';
 
 function Calculator() {
+    const RowData = [["AC", "+/-", "%", "÷"], ["7", "8", "9", "x"], ["4", "5", "6", "-"], ["1", "2", "3", "+"], ["0", ".", "="]];
     return (
         <div className="calculator">
-
             <input className='calculator__input' type="text" defaultValue={0} />
-            <div className="calculator__row">
-                <button>AC</button>
-                <button>+/-</button>
-                <button>%</button>
-                <button>÷</button>
-            </div>
-
-            <div className="calculator__row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>x</button>
-            </div>
-
-            <div className="calculator__row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-            </div>
-
-            <div className="calculator__row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-            </div>
-
-            <div className="calculator__row calculator__row-last">
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
-            </div>
-
+            {RowData.map((RowDataItem, index) => {
+                return <CalculatorRow key={index} data={RowDataItem} />
+            })}
         </div >
     );
 }

@@ -11,25 +11,3 @@
   background-color: #858694;
   border: 1px solid #b9b8b8;
 }
-
-.calculator__row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.calculator__row:last-child {
-  grid-template-columns: 2fr 1fr 1fr;
-}
-
-.calculator__row > button {
-  padding: 1em 0;
-  font-weight: 500;
-  font-size: 20px;
-  background-color: #e0e0e0;
-  border: 1px solid #b9b8b8;
-  cursor: pointer;
-}
-
-.calculator__row > button:last-child {
-  background-color: #f5913e;
-}
