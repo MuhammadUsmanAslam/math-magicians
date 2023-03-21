@@ -17,8 +17,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.calculator__row > button:last-child {
-  background-color: #f5913e;
+.calculator__row:last-child {
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
 .calculator__row > button {
@@ -30,6 +30,6 @@
   cursor: pointer;
 }
 
-.calculator__row-last {
-  grid-template-columns: 2fr 1fr 1fr;
+.calculator__row > button:last-child {
+  background-color: #f5913e;
 }
