@@ -1,0 +1,13 @@
+.calculator {
+  width: 45%;
+}
+
+.calculator__input {
+  font-size: 32px;
+  outline: none;
+  width: 100%;
+  padding: 0.5em;
+  text-align: right;
+  background-color: #858694;
+  border: 1px solid #b9b8b8;
+}
