@@ -128,8 +128,9 @@ npm run test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **React Application setup**
-- **Linter configuration**
+- **Added new components Home, Calculator, and Quotes**
+- **React Router to make the routes work**
+- **Navigation links for all 3 routes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

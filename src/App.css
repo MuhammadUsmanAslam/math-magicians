@@ -3,7 +3,15 @@
   height: auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(248, 235, 215);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,0 +1,8 @@
+.home {
+  margin: 1em;
+}
+
+.home__heading,
+.home__para {
+  padding: 0.5em 0;
+}

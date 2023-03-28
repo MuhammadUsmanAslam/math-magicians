@@ -1,5 +1,6 @@
 .calculator {
   width: 45%;
+  margin: 1em 0;
 }
 
 .calculator__input {
