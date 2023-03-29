@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render quote component 1`] = `
+<div
+  className="quotes"
+>
+  <div
+    className="spinner-box"
+  >
+    <div
+      className="configure-border-1"
+    >
+      <div
+        className="configure-core"
+      />
+    </div>
+    <div
+      className="configure-border-2"
+    >
+      <div
+        className="configure-core"
+      />
+    </div>
+  </div>
+</div>
+`;
