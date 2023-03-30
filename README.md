@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://muhammadusmanaslam.github.io/math-magicians/)
+- [Live Demo Link](https://math-magicians-seven.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
